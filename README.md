@@ -10,14 +10,14 @@ Time spent: **3** hours spent in total
 
 The following **required** functionality is completed:
 
-* [ X ] Image and introductory message displayed on screen
-* [ X ] Button displayed on screen
-* [ X ] Toast with message appears when button is pressed
+* [X] Image and introductory message displayed on screen
+* [X] Button displayed on screen
+* [X] Toast with message appears when button is pressed
 
 The following **optional** features are implemented:
 
-* [ X ] Styled text with font families and made text align centered
-* [ X ] Image transitions when button is pressed
+* [X] Styled text with font families and made text align centered
+* [X] Image transitions when button is pressed
 
 ## Video Walkthrough
 
