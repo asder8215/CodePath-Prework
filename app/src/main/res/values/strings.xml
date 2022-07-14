@@ -1,0 +1,10 @@
+<resources>
+    <string name="introduction">Hey! The name\'s Mahdi. Currently, I\'m a rising sophomore at Columbia
+        University studying Computer Science. In my down time, I like to play badminton, video games
+        on the Nintendo Switch, or solve puzzles (trying to figure out the Pyramix right now).
+        Pertaining to CS, I\'m highly interested in AI and Mobile App Development; I\'m open to
+        learn other fields in CS as well!</string>
+    <string name="app_name">Hello World</string>
+    <string name="next_image">Next Image</string>
+    <string name="first_app">Welcome to my First App!</string>
+</resources>
