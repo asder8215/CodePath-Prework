@@ -1,8 +1,10 @@
 package com.example.hello
 
+import android.graphics.Color
 import android.graphics.drawable.Drawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.provider.ContactsContract
 import android.util.Log
 import android.widget.Button
 import android.widget.ImageView
@@ -15,11 +17,14 @@ class MainActivity : AppCompatActivity() {
 
         val button = findViewById<Button>(R.id.moveToNextImg)
         val image = findViewById<ImageView>(R.id.images)
-        var imageIndex = 0
         val listOfImages= arrayOf(R.drawable.college_friends, R.drawable.back_pic, R.drawable.raining,
             R.drawable.pyramix)
 
-        //Button shifts through the list of images
+        imageTransition(button, listOfImages, image)
+    }
+    //function shifts through images through the use of a button
+    private fun imageTransition(button: Button, listOfImages: Array<Int>, image:ImageView){
+        var imageIndex = 0
         button.setOnClickListener{
             Log.v("nextImg", "Moved to the next Image")
             if(imageIndex < (listOfImages.size - 1)){
